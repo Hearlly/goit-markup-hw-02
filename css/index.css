@@ -42,7 +42,7 @@
 
 .address-list-item {
   text-decoration: none;
-  color: #2e2f42;
+  color: var(--slate, #434455);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -51,14 +51,23 @@
   letter-spacing: 0.32px;
 }
 
-.nav-list-item {
-  color: #434455;
+.nav-list {
   text-decoration: none;
+  color: var(--slate, #434455);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
+}
+.nav-item {
+  text-decoration: none;
+  color: var(--navyblue, #2E2F42);
+  font-family: "Roboto" ,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
 
@@ -66,7 +75,7 @@ ul {
   list-style-type: none;
 }
 
-.nav-list-item {
+.nav-item {
   font-family: "Roboto" sans-serif;
 }
 
@@ -75,7 +84,7 @@ ul {
 }
 
 .hero-title {
-  color: #fff;
+  color: var(--white, #FFF);
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 56px;
@@ -104,7 +113,7 @@ ul {
 }
 
 .feature-title {
-  color: #2e2f42;
+  color: var(--navyblue, #2E2F42);
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -122,7 +131,7 @@ ul {
 }
 
 .about-title {
-  color: #2e2f42;
+  color: var(--navyblue, #2E2F42);
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -134,7 +143,7 @@ ul {
 }
 
 .team-title {
-  color: #2e2f42;
+  color: var(--navyblue, #2E2F42);
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 36px;
@@ -167,16 +176,13 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.forth-section-items {
-  text-align: center;
-}
 
-.forth-section {
-  background-color: #f4f4fd;
+.section-team {
+  background: var(--cloud, #F4F4FD);
 }
 
 .section-footer {
-  background-color: #2e2f42;
+  background: var(--navyblue, #2E2F42);
 }
 
 .footer-logo-title {
@@ -235,17 +241,17 @@ ul {
 
 .portfolio-list-item {
   text-decoration: none;
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
+  color: var(--navyblue, #2E2F42);
+  font-family: "Roboto" sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
 
 .portfolio-address-item {
-  color: #434455;
+  color: var(--slate, #434455);
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;

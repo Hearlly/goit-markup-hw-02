@@ -36,7 +36,6 @@ body {
 .header-logo-text span {
   color: var(--iris, #4d5ae5);
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
@@ -82,7 +81,6 @@ ul {
   color: var(--white, #FFF);
   text-align: center;
   font-size: 56px;
-  font-style: normal;
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
   
